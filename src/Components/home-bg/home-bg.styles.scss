@@ -1,0 +1,54 @@
+.home-container {
+  .home-rectangle {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      path {
+      }
+    }
+    .home-logo {
+      position: absolute;
+      bottom: 10px;
+      right: 80px;
+    }
+
+    .home-BgLines {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      z-index: -13;
+    }
+  }
+  .ahmeds-details-container {
+    height: 100vh;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    .ahmeds-details {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      .ahmeds-name {
+        font-size: 5vw;
+        color: #fff;
+        .elasfar-name {
+          color: #f6f606;
+        }
+      }
+    }
+  }
+  .Ahmeds-photo {
+    height: 70vh;
+    position: absolute;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/pages/confirm-user/confirm-user.style.scss"],"names":[],"mappings":"AAAA,mBACE,cAAe,CACf,eAAgB","file":"14.c8a33949.chunk.css","sourcesContent":[".confirmed-success {\r\n  font-size: 24px;\r\n  margin-top: 50px;\r\n}\r\n"]}

@@ -1,0 +1,34 @@
+@font-face {
+  font-family: GE;
+  src: url(./Fonts/GE_SS_TV_Bold.otf);
+}
+
+@font-face {
+  font-family: Poet;
+  src: url(./Fonts/Poet.ttf);
+}
+
+@font-face {
+  font-family: Changa;
+  src: url(./Fonts/Changa-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: Poet, GE, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background-image: linear-gradient(to left, #3772a9, #0b2949);
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

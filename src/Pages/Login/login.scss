@@ -1,0 +1,38 @@
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  .login-container {
+    direction: rtl;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .login-title {
+      margin-top: 0;
+      color: #343434;
+    }
+
+    .login-form {
+      display: flex;
+      flex-direction: column;
+    }
+    .create-new-account {
+      color: #adadad;
+      cursor: pointer;
+      text-decoration: underline;
+      margin-bottom: 0;
+      margin-top: 5px;
+
+      &:hover {
+        color: #3299dc;
+      }
+    }
+  }
+}

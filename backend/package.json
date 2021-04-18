@@ -1,0 +1,25 @@
+{
+  "name": "ahmedel-asfar",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.16",
+    "nodemailer": "^6.4.18",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "pg": "^8.5.1"
+  }
+}

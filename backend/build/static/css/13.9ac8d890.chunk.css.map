@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/forget-password/forget-password-page3/forget-password-page3.scss"],"names":[],"mappings":"AAAA,4BACE,eAAgB,CAChB,UAAW,CACX,YAAa","file":"13.9ac8d890.chunk.css","sourcesContent":[".forget-password-page3-form {\r\n  margin-top: 30px;\r\n  width: 100%;\r\n  padding: 15px;\r\n}\r\n"]}

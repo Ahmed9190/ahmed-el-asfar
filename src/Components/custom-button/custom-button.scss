@@ -1,0 +1,23 @@
+.custom-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-color: #3299dc;
+  margin-bottom: 5px;
+  align-self: start;
+  cursor: pointer;
+  color: #fff;
+  font-family: Changa;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:focus {
+    outline: none;
+  }
+}
